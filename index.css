@@ -111,6 +111,10 @@ img {
 		color: white;
 	}
 
+	a:hover {
+		color: orange;
+	}
+
 	span {
 		color: yellow;
 	}
