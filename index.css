@@ -1,0 +1,111 @@
+.duckie img {
+	height: 200px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	color: orange;
+}
+
+h1,h4{
+	font-family: "Arial", sans-serif;
+	line-height: 10px;
+	color: orange;
+}
+
+.image-title {
+	text-align: center;
+}
+
+.about {
+	width: 50%;
+	font-family: "Arial", sans-serif;
+}
+
+span {
+	color: skyblue;
+	text-transform: uppercase;
+}
+
+p {
+	text-transform: uppercase;
+	color: skyblue;
+}
+
+a {
+	text-decoration: none;
+	color: orange;
+}
+a:hover {
+	color: skyblue;
+	text-decoration: underline;
+}
+
+.main-gallery {
+	text-align: center;
+}
+
+.nav {
+	border: 2px dotted black;
+	width: 25%;
+}
+
+.nav ul li {
+	display: inline;
+	margin-left: 10px;
+}
+
+img {
+	height: 200px;
+}
+
+.image {
+	width: 300px;
+	height: 200px;
+	background-color: skyblue;
+	margin: 15px;
+	display: inline-block;
+}
+
+@media all and (max-width: 480px) {
+	img {
+		height: 100px;
+	}
+
+	.image {
+		height: 100px;
+		width: 150px;
+		margin: 10px;
+		display: inline-block;
+		background-color: white;
+	}
+
+	body {
+		background-color: skyblue;
+	}
+
+	.nav {
+		width: 100%;
+		border: 2px dotted white;
+	}
+
+	h1 {
+		color: white;
+	}
+
+	a {
+		color: white;
+	}
+
+	span {
+		color: yellow;
+	}
+
+	p {
+		color: yellow;
+	}
+
+}
