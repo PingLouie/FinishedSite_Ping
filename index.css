@@ -1,5 +1,12 @@
+body {
+	font-family: "Arial", sans-serif;
+}
 .duckie img {
 	height: 200px;
+}
+
+.home-content .duckie img {
+	float: left;
 }
 
 ul {
@@ -11,7 +18,6 @@ li {
 }
 
 h1,h4{
-	font-family: "Arial", sans-serif;
 	line-height: 10px;
 	color: orange;
 }
@@ -68,6 +74,11 @@ img {
 	background-color: skyblue;
 	margin: 15px;
 	display: inline-block;
+}
+
+.content1 {
+	width: 70%;
+	float: left;
 }
 
 @media all and (max-width: 480px) {
