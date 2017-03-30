@@ -95,6 +95,10 @@ img {
 		background-color: white;
 	}
 
+	.home-content .duckie img {
+		height: 250px;
+	}
+
 	body {
 		background-color: skyblue;
 	}
